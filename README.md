@@ -12,26 +12,7 @@
 - **UI та API тести**  
 - **Базові assertions (expect)**  
 
----
 
-## 🧱 Структура фреймворку
-
-taslink_test_task/
-├─ package.json # Залежності та скрипти
-├─ tsconfig.json # Конфігурація TypeScript
-├─ playwright.config.ts # Налаштування Playwright
-├─ README.md # Документація проєкту
-├─ src/
-│ ├─ pages/
-│ │ └─ TodoPage.ts # Page Object для UI тестів
-│ ├─ api/
-│ │ ├─ ApiClient.ts # API контролер
-│ │ └─ PostBuilder.ts # Builder для тіла POST-запиту
-└─ tests/
-├─ ui/
-│ └─ todo.spec.ts # UI тести (ToDoMVC)
-└─ api/
-└─ posts.spec.ts # API тести (JSONPlaceholder)
 
 ## ⚙️ Встановлення
 
